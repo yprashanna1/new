@@ -6,3 +6,11 @@ pillow==9.1.0
 
 # Streamlit for the app
 streamlit>=1.0.0
+
+# Add system-level dependencies for zlib and other libraries
+pillow==9.0.0
+tokenizers==0.13.2
+streamlit>=1.0.0
+
+# System dependencies for zlib
+apt-get install -y zlib1g-dev libjpeg-dev python3-dev
