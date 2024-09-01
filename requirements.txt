@@ -1,0 +1,11 @@
+# Install Rust (for tokenizers)
+rust>=1.60.0
+
+# Image processing library
+pillow==9.1.0
+
+# Tokenization library (requires Rust)
+tokenizers==0.13.3
+
+# Streamlit for the app
+streamlit>=1.0.0
