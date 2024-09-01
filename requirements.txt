@@ -1,11 +1,8 @@
-# Install Rust (for tokenizers)
-rust>=1.60.0
+# Use a specific version of tokenizers that does not require Rust to build
+tokenizers==0.13.2
 
-# Image processing library
+# Use a version of Pillow that works with your environment
 pillow==9.1.0
-
-# Tokenization library (requires Rust)
-tokenizers==0.13.3
 
 # Streamlit for the app
 streamlit>=1.0.0
